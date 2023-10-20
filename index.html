@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--813FBB-->
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,33 +9,60 @@
   <title>MY PORTFOLIO</title>
   <style>
     a:link {
-      color:yellow;
+      color: white;
       background-color: transparent;
       text-decoration: none;
     }
-    
+    .dark a:link {
+      color: blue;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
     a:visited {
-      color:gray;
+      color: white;
       background-color: transparent;
       text-decoration: none;
     }
-    
-    a:hover {
-      color:powderblue;
+    .dark a:visited {
+      color: blue;
       background-color: transparent;
-      text-decoration: underline;
+      text-decoration: none;
     }
-    
+
+    a:hover {
+      color: powderblue;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
     a:active {
       color: red;
       background-color: transparent;
-      text-decoration: underline;
+      text-decoration: none;
     }
-    </style> 
+
+    .clients-item{
+      text-align: center;
+    }
+  </style>
   <!--
     - favicon
   -->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/sharp-solid.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="canonical" href="http://fontawesome.com/icons/x-twitter" />
+  <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome"
+    href="/css/app-wa-02670e9412103b5852dcbe140d278c49.css?vsn=d">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css">
+
 
   <!--
     - custom css link
@@ -61,6 +89,7 @@
       - #SIDEBAR
     -->
 
+
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
@@ -70,7 +99,7 @@
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Richard hanrick" style="font-size:18px";>MUZEEEBURRAHAMAN</h1>
+          <h1 class="name" title="Richard hanrick" style="font-size:18px" ;>MUZEEEBURRAHAMAN</h1>
 
           <p class="title">UI/UX Designer(Product designer)</p>
         </div>
@@ -98,8 +127,10 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:rahamanmuzeeb1108@gmail.com" class="contact-link" target="blank">rahamanmuzeeb1108@gmail.com</a>
-              <a href="mailto:Muzeeb2010002-d@akgec.ac.in" class="contact-link" target="blank">Muzeeb2010002-d@akgec.ac.in</a>
+              <a href="mailto:rahamanmuzeeb1108@gmail.com" class="contact-link"
+                target="blank">rahamanmuzeeb1108@gmail.com</a>
+              <a href="mailto:Muzeeb2010002-d@akgec.ac.in" class="contact-link"
+                target="blank">Muzeeb2010002-d@akgec.ac.in</a>
             </div>
 
           </li>
@@ -175,7 +206,7 @@
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
-          
+
           <li class="social-item">
             <a href="https://github.com/MUZEEBURRAHAMAN" class="social-link" target="blank">
               <ion-icon name="logo-github"></ion-icon>
@@ -230,6 +261,17 @@
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
 
+          <li>
+            <div>
+              <input type="checkbox" class="checkbox" id="checkbox">
+              <label for="checkbox" class="checkbox-label">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+                <span class="ball"></span>
+              </label>
+            </div> 
+          </li>
+
         </ul>
 
       </nav>
@@ -250,15 +292,23 @@
 
         <section class="about-text">
           <p>
-          
- I am a UX Designer at <b>LetmeGrab</b> with more than <b>1.6 yr</b> of experience, leading a team of designers to create the best customer experience for the Pages product.
 
-Previously, I was a consultant at <B>photoshooto</B>, <B>engineerhub</B> and <B>kartexa</B> working with 3 different Fortune companies in the retail, consumer and industrial products, healthcare, financial, and high-tech industries on mobile,eCommerce, and web products.
+            I am a UX Designer at <b>LetmeGrab</b> with more than <b>1.6 yr</b> of experience, leading a team of
+            designers to create the best customer experience for the Pages product.
 
-My unique skills brings a blend between design, business, and technology. I have experience in process design,design research, design strategy, information architecture, UX/UI design, product management, prototyping,storytelling, systems design, technology implementations, usability testing, QA, and visual design.
-In my free time, I enjoy mentoring and coaching aspiring UX designers and students. I also love presenting and speaking about design related topics such as networking, interviewing, job hunting, portfolios, and making strong Linkedin profiles.
+            Previously, I was a consultant at <B>photoshooto</B>, <B>engineerhub</B> and <B>kartexa</B> working with 3
+            different Fortune companies in the retail, consumer and industrial products, healthcare, financial, and
+            high-tech industries on mobile,eCommerce, and web products.
 
-If you're interested in talking, please send me a message to connect!
+            My unique skills brings a blend between design, business, and technology. I have experience in process
+            design,design research, design strategy, information architecture, UX/UI design, product management,
+            prototyping,storytelling, systems design, technology implementations, usability testing, QA, and visual
+            design.
+            In my free time, I enjoy mentoring and coaching aspiring UX designers and students. I also love presenting
+            and speaking about design related topics such as networking, interviewing, job hunting, portfolios, and
+            making strong Linkedin profiles.
+
+            If you're interested in talking, please send me a message to connect!
           </p>
         </section>
 
@@ -357,70 +407,92 @@ If you're interested in talking, please send me a message to connect!
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="https://www.pngall.com/wp-content/uploads/13/Google-Logo-PNG-Images.png" alt="Design" width="80" height="80" data-testimonials-avatar >
+                  <img src="https://www.pngall.com/wp-content/uploads/13/Google-Logo-PNG-Images.png" alt="Design"
+                    data-testimonials-avatar>
                 </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>GOOGLE UI/UX DESIGN</h4>
+                
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>GOOGLE UI/UX DESIGN<i  class="fa fa-angle-right more-arrow " aria-hidden="true" ></i></h4>
+                <!-- <div class="fa-div-more"><i class="fa fa-angle-right " aria-hidden="true" ></i> </div> -->
 
                 <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    The course provides a combination of theoretical knowledge and practical hands-on exercises. Participants engage in real-world design projects, enabling them to apply their learning to practical scenarios. They gain proficiency in using design tools like Sketch, Adobe XD, and InVision, which are widely used in the industry.
-
-The Complete Google UI/UX Design Course is structured in a systematic manner, starting with the basics and gradually progressing to more advanced topics. Participants receive guidance from experienced instructors who provide valuable insights, feedback, and support throughout the learning process.
-<br>
-<br>
-<p style="color:lightgreen";><strong>Certificate Links</strong></p>
-<a href="https://www.coursera.org/account/accomplishments/certificate/P9C2GXY8YNXB" class="contact-link" target="blank">Foundation of user Experience by google</a>                  
-
-<a href="https://drive.google.com/file/d/1V0LRDaSJ8E59HY30jh5NhSh40HORVduM/view" class="contact-link" target="blank">Start the UX Design Process: Empathize, Define, and Ideate</a>                  
-
-<a href="https://www.coursera.org/account/accomplishments/certificate/P9C2GXY8YNXB" class="contact-link" target="blank">Build Wireframes and Low-Fidelity Prototypes</a>                  
-</p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/linkedin.png" alt="certificate" width="80" height="80"  data-testimonials-avatar>
                   
+                  <p>
+                    The course provides a combination of theoretical knowledge and practical hands-on exercises
+                    Participants engage in real-world design projects, enabling them to apply their learning to
+                    practical scenarios. They gain proficiency in using design tools like Sketch, Adobe XD, and
+                    InVision, which are widely used in the industry.
+
+                    The Complete Google UI/UX Design Course is structured in a systematic manner, starting with the
+                    basics and gradually progressing to more advanced topics. Participants receive guidance from
+                    experienced instructors who provide valuable insights, feedback, and support throughout the learning
+                    process .
+                    <br>
+                    <br>
+                  <p style="color:lightgreen" ;><strong>Certificate Links</strong></p>
+                  <a href="https://www.coursera.org/account/accomplishments/certificate/P9C2GXY8YNXB"
+                    class="contact-link" target="blank">Foundation of user Experience by google</a>
+
+                  <a href="https://drive.google.com/file/d/1V0LRDaSJ8E59HY30jh5NhSh40HORVduM/view" class="contact-link"
+                    target="blank">Start the UX Design Process: Empathize, Define, and Ideate</a>
+
+                  <a href="https://www.coursera.org/account/accomplishments/certificate/P9C2GXY8YNXB"
+                    class="contact-link" target="blank">Build Wireframes and Low-Fidelity Prototypes</a>
+                  </p>
+
+                  
+                </div >
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/linkedin.png" alt="certificate" data-testimonials-avatar>
+
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>LinkedIn</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>LinkedIn <i  class="fa fa-angle-right more-arrow " aria-hidden="true" ></i></h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    These courses are designed to provide participants with a comprehensive 
-                    understanding of UI (User Interface) and UX (User Experience) design principles, 
+                    These courses are designed to provide participants with a comprehensive
+                    understanding of UI (User Interface) and UX (User Experience) design principles,
                     methodologies, and practical skills.
-                    The course covers a wide range of topics, catering to different skill levels and 
-                    specific areas of focus within UI/UX design. Participants can explore courses on 
-                    information architecture, user research, visual design, interaction design, prototyping, 
-                    and more. Each course offers in-depth instruction, real-world examples, and hands-on 
+                    The course covers a wide range of topics, catering to different skill levels and
+                    specific areas of focus within UI/UX design. Participants can explore courses on
+                    information architecture, user research, visual design, interaction design, prototyping,
+                    and more. Each course offers in-depth instruction, real-world examples, and hands-on
                     exercises to reinforce the learning
-                    <p style="color:lightgreen";><strong>Certificate Links</strong></p>
-<a href="https://drive.google.com/file/d/1EE5dGOuhc_h5ikMAsDabRCdqFSfv6p2C/view" class="contact-link" target="blank">UX Foundations: Interaction Design</a>                  
+                  <p style="color:lightgreen" ;><strong>Certificate Links</strong></p>
+                  <a href="https://drive.google.com/file/d/1EE5dGOuhc_h5ikMAsDabRCdqFSfv6p2C/view" class="contact-link"
+                    target="blank">UX Foundations: Interaction Design</a>
 
-<a href="https://www.linkedin.com/learning/certificates/285b06b053e9a7c6acb3d388d568ebb83ad5b48537357ebd07bb72e8617ca82d?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BJIBiOQFCSBmOFbinkCAVKw%3D%3D" class="contact-link" target="blank">Sketching for UX Designers</a>                  
+                  <a href="https://www.linkedin.com/learning/certificates/285b06b053e9a7c6acb3d388d568ebb83ad5b48537357ebd07bb72e8617ca82d?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BJIBiOQFCSBmOFbinkCAVKw%3D%3D"
+                    class="contact-link" target="blank">Sketching for UX Designers</a>
 
-<a href="https://drive.google.com/file/d/1VkzWmveZSnlEbiI-O0jUBfDU6ghY7XEL/view" class="contact-link" target="blank">UX Foundations: Storytelling</a>                  
+                  <a href="https://drive.google.com/file/d/1VkzWmveZSnlEbiI-O0jUBfDU6ghY7XEL/view" class="contact-link"
+                    target="blank">UX Foundations: Storytelling</a>
 
-<a href="https://www.linkedin.com/learning/certificates/799fda7cc4e9b3c0da1c0341f4716cd0c12d09a651d74d74c346f2b00b2ca117?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BwKl%2BdsXRTQSdg9rxGyB5IA%3D%3D" class="contact-link" target="blank">Figma: Handing off to Developers</a>                  
+                  <a href="https://www.linkedin.com/learning/certificates/799fda7cc4e9b3c0da1c0341f4716cd0c12d09a651d74d74c346f2b00b2ca117?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BwKl%2BdsXRTQSdg9rxGyB5IA%3D%3D"
+                    class="contact-link" target="blank">Figma: Handing off to Developers</a>
 
-<a href="https://www.linkedin.com/learning/certificates/cc938ee2455b9194e1c6a424644ed673b6d26b131a8567942896fd4169e033a6?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BwKl%2BdsXRTQSdg9rxGyB5IA%3D%3D" class="contact-link" target="blank">
-UX Foundations: Content Strategy </a>                  
+                  <a href="https://www.linkedin.com/learning/certificates/cc938ee2455b9194e1c6a424644ed673b6d26b131a8567942896fd4169e033a6?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BwKl%2BdsXRTQSdg9rxGyB5IA%3D%3D"
+                    class="contact-link" target="blank">
+                    UX Foundations: Content Strategy </a>
 
-<a href="https://www.linkedin.com/learning/certificates/f0373e8d5e225178725ae1ad8c25ddd5646a114b5f45d118415db5cd5b8c6dce?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BQN61ZHoIQimuLSW3aEIe8A%3D%3D" class="contact-link" target="blank">Advance Your Skills as a User Experience Researcher</a>                  
+                  <a href="https://www.linkedin.com/learning/certificates/f0373e8d5e225178725ae1ad8c25ddd5646a114b5f45d118415db5cd5b8c6dce?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BQN61ZHoIQimuLSW3aEIe8A%3D%3D"
+                    class="contact-link" target="blank">Advance Your Skills as a User Experience Researcher</a>
 
-<a href="https://www.linkedin.com/learning/certificates/468f4f9bd5d2fa7276b3f19c0d90f0183899c6acb61498a99aaf8af3c70f61ea?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BQN61ZHoIQimuLSW3aEIe8A%3D%3D" class="contact-link" target="blank"> Advance Your Skills in User Experience Design
+                  <a href="https://www.linkedin.com/learning/certificates/468f4f9bd5d2fa7276b3f19c0d90f0183899c6acb61498a99aaf8af3c70f61ea?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BQN61ZHoIQimuLSW3aEIe8A%3D%3D"
+                    class="contact-link" target="blank"> Advance Your Skills in User Experience Design
 
-</a>                  
+                  </a>
 
-<a href="https://www.linkedin.com/learning/certificates/62b819357a3eb6a40733d2df2493b5ba99b30879398a9bf3bb91a4621c8b6731?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BQN61ZHoIQimuLSW3aEIe8A%3D%3D" class="contact-link" target="blank">Agile Software Development</a>                  
-</p>
+                  <a href="https://www.linkedin.com/learning/certificates/62b819357a3eb6a40733d2df2493b5ba99b30879398a9bf3bb91a4621c8b6731?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BQN61ZHoIQimuLSW3aEIe8A%3D%3D"
+                    class="contact-link" target="blank">Agile Software Development</a>
+                  </p>
                 </div>
 
               </div>
@@ -430,21 +502,31 @@ UX Foundations: Content Strategy </a>
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/ibm.png" alt="IBM" width="80" height="80" data-testimonials-avatar>
+                  <img src="./assets/images/ibm.png" alt="IBM" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>IBM</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>IBM <i  class="fa fa-angle-right more-arrow " aria-hidden="true" ></i></h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    The course content was incredibly diverse and covered a wide range of topics, including design thinking, agile methodologies, data analytics, cloud computing, and more. It was fascinating to dive deep into each subject, gaining hands-on experience through interactive exercises and real-world case studies. The practical nature of the course allowed me to develop valuable skills that can be directly applied to solving complex business challenges.
+                    The course content was incredibly diverse and covered a wide range of topics, including design
+                    thinking, agile methodologies, data analytics, cloud computing, and more. It was fascinating to dive
+                    deep into each subject, gaining hands-on experience through interactive exercises and real-world
+                    case studies. The practical nature of the course allowed me to develop valuable skills that can be
+                    directly applied to solving complex business challenges.
 
-One of the highlights of the course was the collaborative projects and workshops. Working alongside fellow participants, I had the opportunity to apply my newfound knowledge in a team setting, leveraging IBM's tools and frameworks to create innovative solutions. The emphasis on co-creation fostered a dynamic and inclusive learning environment, encouraging diverse perspectives and collective problem-solving.
-<p style="color:lightgreen";><strong>Certificate Links</strong></p>
-<a href="https://www.credly.com/badges/b58b0367-9316-47e5-9b8c-66ac4b9a597b/linked_in_profile" class="contact-link" target="blank">Enterprise Design Thinking Practitioner</a>
+                    One of the highlights of the course was the collaborative projects and workshops. Working alongside
+                    fellow participants, I had the opportunity to apply my newfound knowledge in a team setting,
+                    leveraging IBM's tools and frameworks to create innovative solutions. The emphasis on co-creation
+                    fostered a dynamic and inclusive learning environment, encouraging diverse perspectives and
+                    collective problem-solving.
+                  <p style="color:lightgreen" ;><strong>Certificate Links</strong></p>
+                  <a href="https://www.credly.com/badges/b58b0367-9316-47e5-9b8c-66ac4b9a597b/linked_in_profile"
+                    class="contact-link" target="blank">Enterprise Design Thinking Practitioner</a>
 
-<a href="https://www.credly.com/badges/9ee19bf6-6963-46d4-ae92-d64ca07608d4/linked_in_profile" class="contact-link" target="blank">Enterprise Design Thinking Co-Creator</a>               
-</p>
+                  <a href="https://www.credly.com/badges/9ee19bf6-6963-46d4-ae92-d64ca07608d4/linked_in_profile"
+                    class="contact-link" target="blank">Enterprise Design Thinking Co-Creator</a>
+                  </p>
                 </div>
 
               </div>
@@ -454,10 +536,10 @@ One of the highlights of the course was the collaborative projects and workshops
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/meta.png" alt="META" width="80" height="80" data-testimonials-avatar>
+                  <img src="./assets/images/meta.png" alt="META" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>META</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>META <i  class="fa fa-angle-right more-arrow " aria-hidden="true" ></i></h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
@@ -479,11 +561,13 @@ One of the highlights of the course was the collaborative projects and workshops
                     <BR>
                     Networking Opportunities with professionals in the design community.
                     <BR>
-                    Foundation for Continuous Learning in a rapidly evolving field. Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    Foundation for Continuous Learning in a rapidly evolving field. Richard was hired to create a
+                    corporate identity. We were very pleased with the work done. She has a
                     lot of experience and is very concerned about the needs of client.
-                    <p style="color:lightgreen";><strong>Certificate Links</strong></p>
-                    <a href="https://www.coursera.org/account/accomplishments/verify/277LU8RKM5XF" class="contact-link" target="blank">Principle of UI/UX Design</a>
-                    
+                  <p style="color:lightgreen" ;><strong>Certificate Links</strong></p>
+                  <a href="https://www.coursera.org/account/accomplishments/verify/277LU8RKM5XF" class="contact-link"
+                    target="blank">Principle of UI/UX Design</a>
+
                   </p>
                 </div>
 
@@ -491,9 +575,10 @@ One of the highlights of the course was the collaborative projects and workshops
             </li>
 
           </ul>
-
+        <div class="fa-div-right"> <i class="fa fa-angle-right " aria-hidden="true" ></i></div> 
+        <div class="fa-div-left"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
         </section>
-<!--
+        <!--
           - Programming Certificates
         -->
 
@@ -507,7 +592,7 @@ One of the highlights of the course was the collaborative projects and workshops
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/HR.png" alt="Design" width="80" height="80" data-testimonials-avatar >
+                  <img src="./assets/images/HR.png" alt="Design" data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Web Developement(Hackerrank)</h4>
@@ -515,25 +600,31 @@ One of the highlights of the course was the collaborative projects and workshops
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
                     Enhanced web development skills.
-Practical experience through hands-on coding exercises and projects.
-Portfolio projects to showcase your skills.
-Industry-recognized certification.
-Competitive advantage in the job market.
-Networking opportunities with fellow learners and industry professionals.
-Increased confidence and motivation in web development
-<BR>
-<br>
-<p style="color:lightgreen";><strong>Certificate Links</strong></p>
-<a href="https://www.hackerrank.com/certificates/ff685b137b9a" class="contact-link"  target="blank">JavaScript (Basic) Certificate</a>                  
+                    Practical experience through hands-on coding exercises and projects.
+                    Portfolio projects to showcase your skills.
+                    Industry-recognized certification.
+                    Competitive advantage in the job market.
+                    Networking opportunities with fellow learners and industry professionals.
+                    Increased confidence and motivation in web development
+                    <BR>
+                    <br>
+                  <p style="color:lightgreen" ;><strong>Certificate Links</strong></p>
+                  <a href="https://www.hackerrank.com/certificates/ff685b137b9a" class="contact-link"
+                    target="blank">JavaScript (Basic) Certificate</a>
 
-<a href="https://www.hackerrank.com/certificates/43ebef7ae5d0" class="contact-link" target="blank">JavaScript (Intermediate) Certificate</a>                  
+                  <a href="https://www.hackerrank.com/certificates/43ebef7ae5d0" class="contact-link"
+                    target="blank">JavaScript (Intermediate) Certificate</a>
 
-<a href="https://www.hackerrank.com/certificates/c3022fc060fb" class="contact-link" target="blank">Problem Solving (Intermediate) Certificate</a>                  
+                  <a href="https://www.hackerrank.com/certificates/c3022fc060fb" class="contact-link"
+                    target="blank">Problem Solving (Intermediate) Certificate</a>
 
-<a href="https://www.hackerrank.com/certificates/fcc647351a43" class="contact-link" target="blank">Python (Basic) Certificate</a> 
+                  <a href="https://www.hackerrank.com/certificates/fcc647351a43" class="contact-link"
+                    target="blank">Python (Basic) Certificate</a>
 
-<a href="https://www.hackerrank.com/certificates/5daa0b11c3ee" class="contact-link" target="blank">SQL (Basic) Certificate</a> 
-<a href="https://www.hackerrank.com/certificates/821395173666" class="contact-link" target="blank">SQL (Intermediate) Certificate</a> 
+                  <a href="https://www.hackerrank.com/certificates/5daa0b11c3ee" class="contact-link" target="blank">SQL
+                    (Basic) Certificate</a>
+                  <a href="https://www.hackerrank.com/certificates/821395173666" class="contact-link" target="blank">SQL
+                    (Intermediate) Certificate</a>
 
                 </div>
 
@@ -544,48 +635,51 @@ Increased confidence and motivation in web development
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/IIT_Kanpur_Logo.svg.png" alt="certificate" width="80" height="80"  data-testimonials-avatar>
-                  
+                  <img src="./assets/images/IIT_Kanpur_Logo.svg.png" alt="certificate" data-testimonials-avatar>
+
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>FULL STACK DEVELOPER<BR>(HTML,CSS,JS,PHP,MYSQL)</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>FULL STACK
+                  DEVELOPER<BR>(HTML,CSS,JS,PHP,MYSQL)</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
                     Comprehensive understanding of front-end and back-end development.
                     <BR>
-Proficiency in programming languages and frameworks used in full-stack development.
-<BR>
-Ability to build complete web applications from start to finish.
-<BR>
-Versatility to work on both client-side (front-end) and server-side (back-end) development.
-<BR>
-Increased employability and job prospects in the web development industry.
-<BR>
-Enhanced problem-solving and critical thinking skills.
-<BR>
-Confidence in managing and maintaining databases and server infrastructure.
-<BR>
-Understanding of web security best practices.
-<BR>
-Familiarity with version control systems for collaborative development.
-<BR>
-Potential for higher salaries and career advancement opportunitiesThese courses are designed to provide participants with a comprehensive 
-                    understanding of UI (User Interface) and UX (User Experience) design principles, 
+                    Proficiency in programming languages and frameworks used in full-stack development.
+                    <BR>
+                    Ability to build complete web applications from start to finish.
+                    <BR>
+                    Versatility to work on both client-side (front-end) and server-side (back-end) development.
+                    <BR>
+                    Increased employability and job prospects in the web development industry.
+                    <BR>
+                    Enhanced problem-solving and critical thinking skills.
+                    <BR>
+                    Confidence in managing and maintaining databases and server infrastructure.
+                    <BR>
+                    Understanding of web security best practices.
+                    <BR>
+                    Familiarity with version control systems for collaborative development.
+                    <BR>
+                    Potential for higher salaries and career advancement opportunitiesThese courses are designed to
+                    provide participants with a comprehensive
+                    understanding of UI (User Interface) and UX (User Experience) design principles,
                     methodologies, and practical skills.
                     <BR>
-                    
-                    <p style="color:lightgreen";><strong>Certificate Links</strong></p>
-<a href="https://ict-certificates.s3.ap-south-1.amazonaws.com/70889-159067-3e8d8340d13f2c28-2021.pdf" class="contact-link" target="blank">Full Stack Developer(HTML,CSS,JAVASCRIPT,PHP,MYSQL)</a>                  
+
+                  <p style="color:lightgreen" ;><strong>Certificate Links</strong></p>
+                  <a href="https://ict-certificates.s3.ap-south-1.amazonaws.com/70889-159067-3e8d8340d13f2c28-2021.pdf"
+                    class="contact-link" target="blank">Full Stack Developer(HTML,CSS,JAVASCRIPT,PHP,MYSQL)</a>
 
 
-</p>
+                  </p>
                 </div>
 
               </div>
             </li>
 
-            
+
           </ul>
 
         </section>
@@ -644,7 +738,7 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
           <h3 class="h3 clients-title">Achievements</h3>
 
           <ul class="clients-list has-scrollbar">
-            
+
             <li class="clients-item">
               <a href="https://adplist.org/certifications/99813">
                 <img src="./assets/images/pngwing.com(44).png" alt="client logo">
@@ -666,9 +760,9 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
               </a>
             </li>
 
-           
 
-           
+
+
 
             <li class="clients-item">
               <a href="https://drive.google.com/file/d/1e6JzJlQ9goZpOF3sIoKoleZdEN4Yyg_x/view">
@@ -846,7 +940,11 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
                 > UX research<br />
                 > UI Design<br />
               </p>
+              <div class="download-resume">
+                <a href="https://drive.google.com/file/d/1APFcmFroMd92_EjeWgYVstmRPvnIn53X/view"  >Download Resume</a>
+               </div>
             </li>
+             
           </ol>
         </section>
 
@@ -854,7 +952,7 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
 
           <div class="title-wrapper">
             <div class="icon-box">
-              <img src="./assets/images/skill.svg" width="40" height="40"alt="client logo">
+              <img src="./assets/images/skill.svg" width="40" height="40" alt="client logo">
             </div>
 
             <h3 class="h3">My Skills</h3>
@@ -997,149 +1095,149 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
               </div>
 
             </li>
-          </li>
-          <li class="skills-item">
+            </li>
+            <li class="skills-item">
 
-            <div class="title-wrapper">
-              <h5 class="h5">UX Writing</h5>
-              <data value="50">50%</data>
-            </div>
+              <div class="title-wrapper">
+                <h5 class="h5">UX Writing</h5>
+                <data value="50">50%</data>
+              </div>
 
-            <div class="skill-progress-bg">
-              <div class="skill-progress-fill" style="width: 50%;"></div>
-            </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
 
-          </li>
-        </li>
-        <li class="skills-item">
+            </li>
+            </li>
+            <li class="skills-item">
 
-          <div class="title-wrapper">
-            <h5 class="h5">Front-end Development</h5>
-            <data value="40">40%</data>
-          </div>
+              <div class="title-wrapper">
+                <h5 class="h5">Front-end Development</h5>
+                <data value="40">40%</data>
+              </div>
 
-          <div class="skill-progress-bg">
-            <div class="skill-progress-fill" style="width: 40%;"></div>
-          </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
 
-        </li>
-        <li class="skills-item">
+            </li>
+            <li class="skills-item">
 
-          <div class="title-wrapper">
-            <h5 class="h5">User Testing and Research Analysis</h5>
-            <data value="60">60%</data>
-          </div>
+              <div class="title-wrapper">
+                <h5 class="h5">User Testing and Research Analysis</h5>
+                <data value="60">60%</data>
+              </div>
 
-          <div class="skill-progress-bg">
-            <div class="skill-progress-fill" style="width: 60%;"></div>
-          </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
 
-        </li>
+            </li>
 
           </ul>
 
         </section>
 
 
-      
-      <section class="Tools I Know">
 
-        <div class="title-wrapper">
-          <div class="icon-box">
-            <img src="./assets/images/tool.svg" width="40" height="40"alt="client logo">
+        <section class="Tools I Know">
+
+          <div class="title-wrapper">
+            <div style="margin: 18px;" class="icon-box">
+              <img src="./assets/images/tool.svg" width="40" height="40" alt="client logo">
+            </div>
+
+            <h3 class="h3">Tools I Know</h3>
           </div>
 
-          <h3 class="h3">Tools I Know</h3>
-        </div>
+          <ul class="clients-list has-scrollbar">
 
-        <ul class="clients-list has-scrollbar">
-          
-          <li class="clients-item">
-         
-              <img src="./assets/images/figma-svgrepo-com.svg" width="80" height="80"alt="client logo">
+            <li class="clients-item">
+
+              <img src="./assets/images/figma-svgrepo-com.svg" width="80" height="80" alt="client logo">
               <center>
-              <p style="color:white;">Figma</p>
-            </center>
-           
-          </li>
-        <li class="clients-item">
-           
-              <img src="./assets/images/adobe-xd-svgrepo-com.svg" width="80" height="80"alt="client logo">
+                <p style="color:white;">Figma</p>
+              </center>
+
+            </li>
+            <li class="clients-item">
+
+              <img src="./assets/images/adobe-xd-svgrepo-com.svg" width="80" height="80" alt="client logo">
               <center>
                 <p style="color:white;">Adobe XD</p>
               </center>
-           
-          </li>
-          <li class="clients-item">
-         
-            <img src="./assets/images/photoshop-color-svgrepo-com.svg" width="80" height="80"alt="client logo">
-            <center>
-            <p style="color:white;">Adobe Photoshop</p>
-          </center>
-         
-        </li>
-      <li class="clients-item">
-         
-            <img src="./assets/images/ai-svgrepo-com.svg" width="80" height="80"alt="client logo">
-            <center>
-              <p style="color:white;">Adobe Illustrator</p>
-            </center>
-         
-        </li>
-        <li class="clients-item">
-         
-          <img src="./assets/images/principle.svg" width="80" height="80"alt="client logo">
-          <center>
-            <p style="color:white;">Principle</p>
-          </center>
-       
-      </li>
-      <li class="clients-item">
-         
-        <img src="./assets/images/invision-color-svgrepo-com.svg" width="80" height="80"alt="client logo">
-        <center>
-          <p style="color:white;">Invision</p>
-        </center>
-     
-    </li>
-    <li class="clients-item">
-         
-      <img src="./assets/images/zeplin-svgrepo-com.svg" width="80" height="80"alt="client logo">
-      <center>
-        <p style="color:white;">Zeplin</p>
-      </center>
-   
-  </li>
-  <li class="clients-item">
-         
-    <img src="./assets/images/sketch-svgrepo-com.svg" width="80" height="80"alt="client logo">
-    <center>
-      <p style="color:white;">Sketch</p>
-    </center>
- 
-</li>
-<li class="clients-item">
-         
-  <img src="./assets/images/balsamiq.png" width="90" height="80"alt="client logo">
-  <center>
-    <p style="color:white;">Balsamiq</p>
-  </center>
 
-</li>
-<li class="clients-item">
-         
-  <img src="./assets/images/proto 1.svg" width="50" height="80"alt="client logo">
-  <center>
-    <p style="color:white;">Proto.io</p>
-  </center>
+            </li>
+            <li class="clients-item">
 
-</li>
+              <img src="./assets/images/photoshop-color-svgrepo-com.svg" width="80" height="80" alt="client logo">
+              <center>
+                <p style="color:white;">Adobe Photoshop</p>
+              </center>
+
+            </li>
+            <li class="clients-item">
+
+              <img src="./assets/images/ai-svgrepo-com.svg" width="80" height="80" alt="client logo">
+              <center>
+                <p style="color:white;">Adobe Illustrator</p>
+              </center>
+
+            </li>
+            <li class="clients-item">
+
+              <img src="./assets/images/principle.svg" width="80" height="80" alt="client logo">
+              <center>
+                <p style="color:white;">Principle</p>
+              </center>
+
+            </li>
+            <li class="clients-item">
+
+              <img src="./assets/images/invision-color-svgrepo-com.svg" width="80" height="80" alt="client logo">
+              <center>
+                <p style="color:white;">Invision</p>
+              </center>
+
+            </li>
+            <li class="clients-item">
+
+              <img src="./assets/images/zeplin-svgrepo-com.svg" width="80" height="80" alt="client logo">
+              <center>
+                <p style="color:white;">Zeplin</p>
+              </center>
+
+            </li>
+            <li class="clients-item">
+
+              <img src="./assets/images/sketch-svgrepo-com.svg" width="80" height="80" alt="client logo">
+              <center>
+                <p style="color:white;">Sketch</p>
+              </center>
+
+            </li>
+            <li class="clients-item">
+
+              <img src="./assets/images/balsamiq.png" width="90" height="80" alt="client logo">
+              <center>
+                <p style="color:white;">Balsamiq</p>
+              </center>
+
+            </li>
+            <li class="clients-item">
+
+              <img src="./assets/images/proto 1.svg" width="50" height="80" alt="client logo">
+              <center>
+                <p style="color:white;">Proto.io</p>
+              </center>
+
+            </li>
 
 
-        </ul>
+          </ul>
 
-      </section>
-    </article>
+        </section>
+      </article>
 
 
 
@@ -1215,7 +1313,7 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
           <ul class="project-list">
 
             <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="https://dribbble.com/shots/20444932-Day-05-dailyUIdesign-Admin-Dashboard" target="blank">
+              <a href="https://dribbble.com/shots/20444932-Day-05-dailyUIdesign-Admin-Dashboard" target="_blank" >
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -1232,18 +1330,18 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://www.behance.net/gallery/180242341/Travel-website(Travel-Dreams)" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="https://mir-s3-cdn-cf.behance.net/projects/808/b83fd3180242341.Y3JvcCwzMDg0LDI0MTMsNzYsMA.png" alt="orizon" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
+                <h3 class="project-title">Travel website(Travel Dreams)</h3>
 
                 <p class="project-category">Web development</p>
 
@@ -1251,43 +1349,81 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+              <a href="https://www.behance.net/gallery/180873479/All-sports-website" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <img src="https://mir-s3-cdn-cf.behance.net/projects/808/1a3d8f180873479.Y3JvcCwzMjAwLDI1MDIsMCwxNQ.png" alt="fundo" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Fundo</h3>
+                <h3 class="project-title">All sports website</h3>
 
                 <p class="project-category">Web design</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://www.behance.net/gallery/180507817/Interior-designer-UI" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <img src="https://mir-s3-cdn-cf.behance.net/projects/808/1287e3180507817.Y3JvcCwzMjAwLDI1MDIsMCwxNQ.png" alt="fundo" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Brawlhalla</h3>
+                <h3 class="project-title">Interior designer UI</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Web design</p>
 
               </a>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+              <a href="https://www.behance.net/gallery/180148125/Redesign-of-RealEstateIndia-Website-logo" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://mir-s3-cdn-cf.behance.net/projects/808/65b06e180148125.Y3JvcCw0MTQyLDMyNDAsNDYxLDA.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Redesign of RealEstateIndia Website & logo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://www.behance.net/gallery/173951219/Admin-Dashboard-UI" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://mir-s3-cdn-cf.behance.net/projects/808/fe3b8b173951219.Y3JvcCw0MTQyLDMyNDAsODgxLDA.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Admin Dashboard UI</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+           
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://www.behance.net/muzeeb0786" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -1305,7 +1441,7 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+              <a href="https://www.behance.net/muzeeb0786" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -1322,8 +1458,8 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://www.behance.net/muzeeb0786" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -1340,42 +1476,315 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+
+            <li class="project-item  active" data-filter-item data-category="app design">
+              <a href="https://dribbble.com/shots/22843837-Beauty-Product-Ecommerce-app-UI-15-Screen-dailyuidesign" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                  <img src="https://cdn.dribbble.com/userupload/10826111/file/original-7e527f17b791d9195290a2262c259c28.png?crop=0x0-2133x1600&resize=400x300&vertical=center" alt="brawlhalla" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Task Manager</h3>
+                <h3 class="project-title">Beauty Product(Ecommerce app) UI </h3>
 
                 <p class="project-category">Applications</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="app design">
+              <a href="https://dribbble.com/shots/22770974-Car-Service-App-UI-dailyuidesign" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                  <img src="https://cdn.dribbble.com/userupload/10629621/file/original-ed390f93a6072181d1bc79a0a03ca237.png?crop=0x0-3599x2699&resize=400x300&vertical=center" alt="brawlhalla" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Arrival</h3>
+                <h3 class="project-title">Car Service App UI </h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Applications</p>
 
               </a>
             </li>
 
+            <li class="project-item  active" data-filter-item data-category="app design">
+              <a href="https://dribbble.com/shots/22429475-Fashion-App-UI-Stylispan-dailyuidesign" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://cdn.dribbble.com/userupload/9714832/file/original-271a165a40f46cdc2be8b64d810a0f77.png?crop=0x0-3201x2401&resize=400x300&vertical=center" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fashion App UI </h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="app design">
+              <a href="https://dribbble.com/shots/22656538-NFT-App-UI-Design-dailyuidesign" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://cdn.dribbble.com/userupload/10322988/file/original-43135292db08cc1515af6150dd6fa43e.png?crop=0x0-3201x2401&resize=400x300&vertical=center" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NFT App UI Design </h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="app design">
+              <a href="https://dribbble.com/shots/20723801-Share-your-project-page-dailyuidesign" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://cdn.dribbble.com/userupload/4846761/file/original-db0d7c1466d94a3a873dfbdde2479891.png?resize=400x300&vertical=center" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Share your project page </h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="app design">
+              <a href="https://dribbble.com/shots/21807697-USER-PROFILE-PAGE-UI-DESIGN" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://cdn.dribbble.com/userupload/8000263/file/original-e4f5f333e30f9593a70eff1f0bbe384a.png?crop=118x89-3081x2310&resize=400x300&vertical=center" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+                  USER PROFILE PAGE UI DESIGN </h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="app design">
+              <a href="https://dribbble.com/shots/20275890-DAY-04-Shoe-app-design" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://cdn.dribbble.com/users/11451390/screenshots/20275890/media/189e0676dd0d272dc5fb3bc109e9e0f6.png?resize=400x300&vertical=center" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Shoe app design </h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="app design">
+              <a href="https://dribbble.com/shots/20733933-Chat-screen-dailyuidesign" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://cdn.dribbble.com/userupload/4874220/file/original-4ceec15472ac6bc655e0e241538459c2.png?resize=400x300&vertical=center" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Chat screen </h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="app design">
+              <a href="https://dribbble.com/shots/22386019-Weather-app-ui-uidesign" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://cdn.dribbble.com/userupload/9598585/file/original-3112a56edf6589e586686d0df43c2192.png?crop=5x0-2740x2051&resize=400x300&vertical=center" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Weather app UI</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+            <li class="project-item  active" data-filter-item data-category="case study">
+              <a href="https://vigorous-gerbera-b44.notion.site/HRMS-Human-Resource-management-system-a7007791730c4465862674ec6d6daf53">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/888.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">HRMS(Human Resource management system)</h3>
+
+                <p class="project-category">Case Study</p>
+
+              </a>
+            </li>
+
+           
+
+
+            <li class="project-item  active" data-filter-item data-category="graphics design">
+              <a href="https://www.behance.net/gallery/164756207/Pressed-logo">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://mir-s3-cdn-cf.behance.net/projects/808/33a6f6164756207.Y3JvcCwzNDEyLDI2NjgsMCwxMzE3.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pressed logo</h3>
+
+                <p class="project-category">Graphics design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphics design">
+              <a href="https://www.behance.net/gallery/164624499/3d-studio-logo">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://mir-s3-cdn-cf.behance.net/projects/808/d9c786164624499.Y3JvcCwxMDEyLDc5Miw0NzgsMA.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">3d studio logo</h3>
+
+                <p class="project-category">Graphics design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphics design">
+              <a href="https://www.behance.net/gallery/164557237/Roomlocker">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://mir-s3-cdn-cf.behance.net/projects/808/9f6689164557237.Y3JvcCw0MzIwLDMzNzksMCw0NzA.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Roomlocker</h3>
+
+                <p class="project-category">Graphics design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphics design">
+              <a href="https://www.behance.net/gallery/159708267/Perfect-marketing-sales-logo">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://mir-s3-cdn-cf.behance.net/projects/808/7c0f62159708267.Y3JvcCwzNzc0LDI5NTIsOTkwLDA.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Perfect marketing sales logo
+                </h3>
+
+                <p class="project-category">Graphics design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphics design">
+              <a href="https://www.behance.net/gallery/153439089/Eduford">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://mir-s3-cdn-cf.behance.net/projects/808/9d2aa8153439089.Y3JvcCwxMjUyLDk4MCw3NCww.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Eduford</h3>
+
+                <p class="project-category">Graphics design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphics design">
+              <a href="https://www.behance.net/gallery/150163855/Search-Food-Website-Logo">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://mir-s3-cdn-cf.behance.net/projects/808/e3fd07150163855.Y3JvcCwxNTAwLDExNzMsMCwxNjM.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Search Food Website Logo</h3>
+
+                <p class="project-category">Graphics design</p>
+
+              </a>
+            </li>
+
+
+            
           </ul>
 
         </section>
@@ -1396,7 +1805,7 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
           <h2 class="h2 article-title">Blog</h2>
         </header>
 
-        <section class="blog-posts">
+        <section class="blog-posts">w
 
           <ul class="blog-posts-list">
 
@@ -1432,7 +1841,8 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
               <a href="https://medium.com/@Muzeeb2010002-d/e-commerce-search-button-4bee4bf3ba6a" target="blank">
 
                 <figure class="blog-banner-box">
-                  <img src="https://miro.medium.com/v2/resize:fit:1200/1*zpiYXAZPkvEQt6vQxCSyuw.jpeg" alt="Best fonts every designer" loading="lazy">
+                  <img src="https://miro.medium.com/v2/resize:fit:1200/1*zpiYXAZPkvEQt6vQxCSyuw.jpeg"
+                    alt="Best fonts every designer" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
@@ -1456,7 +1866,8 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
               </a>
             </li>
             <li class="blog-post-item">
-              <a href="https://medium.com/@Muzeeb2010002-d/beyond-screens-unleashing-the-power-of-spatial-ui-for-next-level-user-experiences-2eaa5bc58979" target="blank">
+              <a href="https://medium.com/@Muzeeb2010002-d/beyond-screens-unleashing-the-power-of-spatial-ui-for-next-level-user-experiences-2eaa5bc58979"
+                target="blank">
 
                 <figure class="blog-banner-box">
                   <img src="./assets/images/spatial.jpg" alt="Best fonts every designer" loading="lazy">
@@ -1482,8 +1893,9 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
 
               </a>
             </li>
- <li class="blog-post-item">
-              <a href="https://medium.com/@Muzeeb2010002-d/enhancing-login-security-safeguarding-user-accounts-in-the-digital-era-2c33d1b77b3" target="blank">
+            <li class="blog-post-item">
+              <a href="https://medium.com/@Muzeeb2010002-d/enhancing-login-security-safeguarding-user-accounts-in-the-digital-era-2c33d1b77b3"
+                target="blank">
 
                 <figure class="blog-banner-box">
                   <img src="./assets/images/LOGIN PORTFOLIO.png" alt="Best fonts every designer" loading="lazy">
@@ -1509,8 +1921,9 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
 
               </a>
             </li>
-             <li class="blog-post-item">
-              <a href="https://medium.com/@Muzeeb2010002-d/unraveling-the-dark-side-of-empathy-how-it-can-impact-ux-designers-negatively-389a936ff765" target="blank">
+            <li class="blog-post-item">
+              <a href="https://medium.com/@Muzeeb2010002-d/unraveling-the-dark-side-of-empathy-how-it-can-impact-ux-designers-negatively-389a936ff765"
+                target="blank">
 
                 <figure class="blog-banner-box">
                   <img src="./assets/images/EMPATHY.jpg" alt="Best fonts every designer" loading="lazy">
@@ -1529,15 +1942,16 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
                   <h3 class="h3 blog-item-title">Dark Side of Empathy</h3>
 
                   <p class="blog-text">
-                Unraveling the Dark Side of Empathy: How It Can Impact UX Designers Negatively
+                    Unraveling the Dark Side of Empathy: How It Can Impact UX Designers Negatively
                   </p>
 
                 </div>
 
               </a>
             </li>
-  <li class="blog-post-item">
-              <a href="https://medium.com/@Muzeeb2010002-d/empowering-customer-relationships-6-proven-methods-for-building-long-lasting-relationships-4dbe1e62547b" target="blank">
+            <li class="blog-post-item">
+              <a href="https://medium.com/@Muzeeb2010002-d/empowering-customer-relationships-6-proven-methods-for-building-long-lasting-relationships-4dbe1e62547b"
+                target="blank">
 
                 <figure class="blog-banner-box">
                   <img src="./assets/images/CRM.jpeg" alt="Best fonts every designer" loading="lazy">
@@ -1556,15 +1970,16 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
                   <h3 class="h3 blog-item-title">Customer Relationship Management</h3>
 
                   <p class="blog-text">
-          Empowering Customer Relationships: 6 Proven Methods for Building Long-Lasting Relationships
+                    Empowering Customer Relationships: 6 Proven Methods for Building Long-Lasting Relationships
                   </p>
 
                 </div>
 
               </a>
             </li>
-              <li class="blog-post-item">
-              <a href="https://medium.com/@Muzeeb2010002-d/creating-awesome-apps-website-for-the-next-billion-user-nbu-simple-tips-for-success-ad51a729c68c" target="blank">
+            <li class="blog-post-item">
+              <a href="https://medium.com/@Muzeeb2010002-d/creating-awesome-apps-website-for-the-next-billion-user-nbu-simple-tips-for-success-ad51a729c68c"
+                target="blank">
 
                 <figure class="blog-banner-box">
                   <img src="./assets/images/next billion.jpg" alt="Best fonts every designer" loading="lazy">
@@ -1583,18 +1998,20 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
                   <h3 class="h3 blog-item-title">Next Billion User</h3>
 
                   <p class="blog-text">
-               Creating Awesome Apps/Website for the Next Billion User(NBU): Simple Tips for Success
+                    Creating Awesome Apps/Website for the Next Billion User(NBU): Simple Tips for Success
                   </p>
 
                 </div>
 
               </a>
             </li>
-                 <li class="blog-post-item">
-              <a href="https://medium.com/@Muzeeb2010002-d/smoother-shopping-elevating-e-commerce-support-services-for-you-a414d1f62d45" target="blank">
+            <li class="blog-post-item">
+              <a href="https://medium.com/@Muzeeb2010002-d/smoother-shopping-elevating-e-commerce-support-services-for-you-a414d1f62d45"
+                target="blank">
 
                 <figure class="blog-banner-box">
-                  <img src="https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/article5944.jpg" alt="Best fonts every designer" loading="lazy">
+                  <img src="https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/article5944.jpg"
+                    alt="Best fonts every designer" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
@@ -1610,14 +2027,14 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
                   <h3 class="h3 blog-item-title">Elevate Customer Support Services</h3>
 
                   <p class="blog-text">
-               Smoother Shopping: Elevating E-commerce Support Services for You
+                    Smoother Shopping: Elevating E-commerce Support Services for You
                   </p>
 
                 </div>
 
               </a>
             </li>
-           
+
 
           </ul>
 
@@ -1639,18 +2056,21 @@ Potential for higher salaries and career advancement opportunitiesThese courses 
           <h2 class="h2 article-title">Contact</h2>
         </header>
 
-       <section class="mapbox" data-mapbox>
-          <figure>     
+        <section class="mapbox" data-mapbox>
+          <figure>
             <div class="img-contact">
-              <img src="https://www.cloud4c.com/sites/default/files/styles/thumbnail_for_facebook/public/2022-07/cloud4c-company-contact-1Desktop.jpg?itok=Vla12_0A" width="838px" height="400px">
+              <img
+                src="https://www.cloud4c.com/sites/default/files/styles/thumbnail_for_facebook/public/2022-07/cloud4c-company-contact-1Desktop.jpg?itok=Vla12_0A"
+                width="838px" height="400px">
             </div>
           </figure>
-          </section>
+        </section>
         <section class="contact-form">
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+          <form   action="https://formspree.io/f/mqkvwvoq"
+          method="POST" data-form>
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
